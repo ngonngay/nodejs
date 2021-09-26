@@ -25,3 +25,17 @@ It allows you to natively compile .scss files to css at incredible speed and aut
 ```
 npm i node-sass --save-dev
 ```
+## Mongoose
+Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
+```
+npm install mongoose
+```
+## method override
+HTML form only supports two HTTP methods is GET and POST. When follow Restful API rules, we need send to server by other HTTP methods like : PUT,PATCH,DELETE and OPTIONS.\
+So method override is middleware help we solve this\
+
+**Note from authors**\
+>Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn’t support it.
+```
+npm install method-override
+```
